@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "skipskinverify",
+	"version": "${version}",
+	"name": "SkipSkinVerify",
+	"description": "Skip client verify the signature of skin.",
+	"authors": ["DecidedX"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["top.decided.skipskinverify.SkipSkinVerify"]
+	},
+	"mixins": ["skipskinverify.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11"
+	}
+}
